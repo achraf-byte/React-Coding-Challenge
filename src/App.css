@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+.app {
+    min-width: 800px;
+    padding: 20px;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.Element {
+    background-color: rgba(199, 199, 199, 0.493);
+    margin-bottom: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.avatar {
+    margin-right: 20px;
+    width: 200px;
+    border: 1px solid rgba(245, 222, 179, 0);
+    height: 100%;
+}
+
+.avatar img {
+    border-radius: 20px;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    min-width: 60%;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+}
+
+.info i {
+    color: rgb(255, 136, 0);
+}
+
+.rationdte {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rationdte span {
+    margin-right: 30px;
+}
